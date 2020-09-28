@@ -1,0 +1,17 @@
+.footer__container {
+  background: rgb(43, 42, 42);
+  width: 100vw;
+  height: 3rem;
+  padding: 0 8rem;
+  margin-top: 2rem;
+  .footer__content__container {
+    display: flex;
+    justify-content: space-between;
+    color: #fff;
+    height: 100%;
+    align-items: center;
+  }
+  .footer__text {
+    font-size: 1rem;
+  }
+}

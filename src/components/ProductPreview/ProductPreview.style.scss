@@ -1,0 +1,13 @@
+.productpreview {
+  height: 100vh;
+  .productpreview__container {
+    padding-top: 7rem;
+  }
+  .productpreview__list {
+    display: flex;
+    justify-content: space-evenly;
+  }
+  .price {
+    font-size: 1.25rem;
+  }
+}

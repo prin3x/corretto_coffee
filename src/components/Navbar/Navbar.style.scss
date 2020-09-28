@@ -1,0 +1,28 @@
+.navbar {
+  padding: 0 10rem;
+  font-size: 1rem;
+  border-bottom: 1px solid rgba(0, 0, 0, 0.1);
+  position: fixed;
+  width: 100vw;
+  background: #fff;
+  z-index: 100;
+
+  .navbar__container {
+    display: flex;
+    justify-content: space-between;
+  }
+  .navbar__brand {
+    font-size: 1.5rem;
+    padding: 0.7rem 1rem 0 1rem;
+    font-weight: 900;
+  }
+
+  .navbar__link {
+    list-style: none;
+    display: flex;
+  }
+
+  .navbar__link--list {
+    padding: 1rem 1rem 0 1rem;
+  }
+}
