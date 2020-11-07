@@ -1,10 +1,10 @@
-import React from "react";
-import ProductOverview from "../ProductOverview/ProductOverview.component";
-import "./ProductPreview.style.scss";
+import React from 'react';
+import ProductOverview from '../ProductOverview/ProductOverview.component';
+import './ProductPreview.style.scss';
 
 const ProductPreview = () => {
   return (
-    <section class='productpreview' id='preview'>
+    <section className='productpreview' id='preview'>
       <div className='productpreview__container'>
         <h3 className='heading-3'>Brew Coffee</h3>
         <p className='text'>

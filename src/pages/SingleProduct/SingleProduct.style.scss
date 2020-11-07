@@ -1,0 +1,35 @@
+.singleproduct{
+  padding-top: 7.5rem;
+  min-height: 100vh;
+
+  &__container {
+    display: flex;
+  justify-content: center;
+
+
+  }
+ 
+  &__image{
+    width: 25rem;
+    height: auto;
+  }
+
+  &__description{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    width: 20rem;
+    height: 10rem;
+
+  }
+
+  &__button-container{
+    display: flex;
+    justify-content: center;
+    padding: 2rem;
+  }
+
+  .rating__container{
+    margin-top: 2rem;
+  }
+}

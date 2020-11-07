@@ -1,0 +1,30 @@
+.cart{
+  position: relative;
+  cursor: pointer;
+  &__container{
+    width: 17rem;
+    height: 240px;
+    position: absolute;
+    bottom: -17rem;
+    display: flex;
+    flex-direction: column;
+    left: -10rem;
+    overflow-y: scroll;
+    color: #000;
+    background-color: rgb(252, 250, 250);
+    &--inner{
+      display: flex;
+      justify-content: center;
+      margin-top: 1rem;
+    }
+
+ 
+  }
+  &__item {
+    margin: 0 2rem;
+  }
+
+  &__item-image{
+    width: 50px;
+  }
+}

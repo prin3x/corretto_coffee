@@ -1,5 +1,7 @@
 .productpreview {
   height: 100vh;
+  width: 100vw;
+
   .heading-3 {
     font-size: 1.5rem;
   }
@@ -8,7 +10,7 @@
   }
   .productpreview__list {
     display: flex;
-    justify-content: space-evenly;
+    justify-content: center;
   }
   .price {
     font-size: 1.25rem;

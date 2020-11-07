@@ -1,0 +1,55 @@
+.checkout{
+  padding-top: 7.5rem;
+  height: 100vh;
+
+
+  .checkout__overall{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+  
+  }
+  
+  .checkout__container{
+  
+    display:flex;
+    justify-self: center;
+
+   
+
+    .checkout__price{
+      font-size: 1.2rem;
+    }
+  
+    .checkout__item {
+      width: 10rem;
+      height: 5rem;
+      padding: 4rem 1rem;
+    }
+
+    .checkout__qty{
+      width: 7rem;
+      text-align: center;
+      font-size: 1.25rem;
+      padding-top: 4rem;
+    }
+
+    .checkout__tools{
+      font-size: 1.75rem;
+      width: 5rem;
+      height: 5rem;
+      padding-top: 4rem;
+      cursor: pointer;
+    }
+
+   
+  }
+  .checkout__total{
+    padding: 5rem 0;
+    position: relative;
+  }
+
+}
+
